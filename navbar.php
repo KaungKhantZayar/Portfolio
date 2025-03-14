@@ -1,11 +1,26 @@
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+
+<style media="screen">
+@media only screen and (max-width: 600px) {
+ .menu_btn{
+  display: block !important;
+  margin-right:50px;
+}
+.name{
+  margin-left:-50px;
+}
+.min_nav{
+  display:none;
+}
+}
+</style>
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:black;">
   <a class="navbar-brand" href="#" style="margin-left:90px;">
-      <h2>Portfolio</h2>
+      <p style="font-size:30px;" class="name"><b>KKZY</b></p>
   </a>
   <!-- <img src="project/2.png" alt="" style="width:550px; margin-left:270px; border-radius:5px; box-shadow:3px 3px 15px gray;"> -->
 
   <!-- Links -->
-  <ul class="navbar-nav" style="margin-left:350px;">
+  <ul class="navbar-nav min_nav" style="margin-left:350px;">
     <li class="nav-item">
       <a class="nav-link ms-3 nav-color" href="#home" style="color:white; font-size:18px;">Home</a>
     </li>
@@ -24,10 +39,12 @@
     <li class="nav-item">
       <a class="nav-link ms-3 nav-color" href="#contact" style="color:white; font-size:18px;">Contact</a>
     </li>
-    <li class="nav-item">
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" style="color:white; margin-left:80px; margin-top:10px;" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
-        <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
-      </svg> -->
-    </li>
   </ul>
+
+  <a href="#" style="display:none;" class="menu_btn">
+    <svg style="color:yellow;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+      <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793zM1 7v3h14V7zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
+    </svg>
+  </a>
+
 </nav>
