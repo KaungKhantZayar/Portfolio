@@ -360,6 +360,25 @@
   }
 }
 
+.services_btn{
+  margin-left:100px;
+  border:none;
+  padding:8px;
+  background-color:yellow;
+  border-radius:10px;
+}
+.services_card{
+border:2px solid lightblue;
+/* border-radius:50px; */
+background-color:gray;
+transition:0.5s;
+}
+.services_card:hover{
+/* border:none; */
+border:2px solid yellow;
+border-radius:50px;
+background-color:gray;
+}
   </style>
   <body>
 
@@ -710,12 +729,77 @@
             </div>
         </div>
           </div>
-<br><br><br><br>
+
+<div id="services">
+
+</div>
+<br><br><br><br><br><br>
+<div>
+    <h2 style="color:white;" class="text-center"><b>Our <font color="yellow">Services</font></b></h2>
+</div>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="card services_card">
+          <div class="card-body" style="background-color:black;">
+            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+              <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+            </svg>
+
+            <h4 style="margin-left:106px; color:white; margin-top:10px;"><b>Training</b></h4>
+            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
+            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card services_card">
+          <div class="card-body" style="background-color:black;">
+            <!-- <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+              <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+            </svg></b> -->
+            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+              <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+            </svg>
+            <h4 style="margin-left:89px; color:white; margin-top:10px;"><b>Web Design</b></h4>
+            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
+            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card services_card">
+          <div class="card-body" style="background-color:black;">
+            <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+              <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+            </svg></b>
+            <h4 style="margin-left:46px; color:white; margin-top:10px;"><b>Web Development</b></h4>
+            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
+            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- <div class="col-3">
+        <div class="card">
+          <div class="card-body">
+
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
           <div id="project">
 
           </div>
           <br><br><br><br>
           <!-- <div>
+          <br><br><br><br><br><br>
+          <div>
               <h2 style="color:white;" class="text-center"><b>My Project</b></h2>
           </div> -->
 
