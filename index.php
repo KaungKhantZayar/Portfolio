@@ -279,6 +279,37 @@
 .input_box input::-ms-reveal{
   filter: invert(100%);
 }
+
+.services_btn{
+  margin-left:100px;
+  border:none;
+  padding:8px;
+  background-color:yellow;
+  border-radius:10px;
+}
+.services_card{
+border:2px solid lightblue;
+/* border-radius:50px; */
+background-color:gray;
+transition:0.5s;
+}
+.services_card:hover{
+/* border:none; */
+border:2px solid yellow;
+border-radius:50px;
+background-color:gray;
+}
+.carousel_btn_1{
+  border:none;
+  padding:10px;
+  border-radius:10px;
+  background-color:yellow;
+  margin-left:280px;
+}
+.prev_next_btn{
+  margin-top:-110px;
+}
+
 @media only screen and (max-width: 600px) {
   .main_photo{
     display:none;
@@ -358,27 +389,34 @@
     width:100%;
     height:300px;
   }
+  .services_col{
+    width:100%;
+    padding:20px;
+  }
+  .services_icon{
+    margin-left:183px !important;
+  }
+  .training_text{
+    margin-left:160px !important;
+  }
+  .services_button{
+    margin-left:155px;
+  }
+  .Web_Design_text{
+    margin-left:144px !important;
+  }
+  .Web_Development_text{
+    margin-left:110px !important;
+  }
+  .main_carousel{
+    width:450px !important;
+  }
+  .carousel_btn_1{
+    margin-left:150px !important;
+  }
 }
 
-.services_btn{
-  margin-left:100px;
-  border:none;
-  padding:8px;
-  background-color:yellow;
-  border-radius:10px;
-}
-.services_card{
-border:2px solid lightblue;
-/* border-radius:50px; */
-background-color:gray;
-transition:0.5s;
-}
-.services_card:hover{
-/* border:none; */
-border:2px solid yellow;
-border-radius:50px;
-background-color:gray;
-}
+
   </style>
   <body>
 
@@ -604,7 +642,7 @@ background-color:gray;
 
             <div class="col-6 main_photo">
                   <div class="" style="margin-top:26px;">
-                      <a href="#"><img src="image/myphot5.png" alt="" class="photo"></a>
+                      <a href="#"><img src="image/cartoo_peter.png" alt="" class="photo"></a>
                   </div>
             </div>
         </div>
@@ -620,7 +658,7 @@ background-color:gray;
 
       <div class="col-6 about_photo">
         <div class="mt-5 about_photo_div" style="margin-left:-90px;">
-          <img src="image/myphoto3.jpg" alt="" class="photo about_myphoto">
+          <img src="image/cartoo_peter.png" alt="" class="photo about_myphoto">
         </div>
       </div>
       <div class="col-6 about_text">
@@ -740,44 +778,44 @@ background-color:gray;
 <br>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
-            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop services_icon" viewBox="0 0 16 16">
               <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
             </svg>
 
-            <h4 style="margin-left:106px; color:white; margin-top:10px;"><b>Training</b></h4>
+            <h4 style="margin-left:106px; color:white; margin-top:10px;" class="training_text"><b>Training</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
             <!-- <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
               <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
             </svg></b> -->
-            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette services_icon" viewBox="0 0 16 16">
               <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
               <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
             </svg>
-            <h4 style="margin-left:89px; color:white; margin-top:10px;"><b>Web Design</b></h4>
+            <h4 style="margin-left:89px; color:white; margin-top:10px;" class="Web_Design_text"><b>Web Design</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
-            <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+            <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash services_icon" viewBox="0 0 16 16">
               <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
             </svg></b>
-            <h4 style="margin-left:46px; color:white; margin-top:10px;"><b>Web Development</b></h4>
+            <h4 style="margin-left:46px; color:white; margin-top:10px;" class="Web_Development_text"><b>Web Development</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
           </div>
         </div>
         </div>
@@ -796,60 +834,51 @@ background-color:gray;
           <div id="project">
 
           </div>
-          <br><br><br><br>
-          <!-- <div>
-          <br><br><br><br><br><br>
+          <br><br><br><br><br>
+          <div>
           <div>
               <h2 style="color:white;" class="text-center"><b>My Project</b></h2>
-          </div> -->
+          </div>
 
-              <!-- <div>
-                <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="container d-flex">
-                      <div class="" style="margin-top:70px;">
-
-                        <div class="container">
-                          <img src="project/2.png" alt="" style="width:550px; margin-left:270px; border-radius:5px; box-shadow:3px 3px 15px gray;">
-                              <h3 style="color:white; margin-left:380px;" class="mt-2">English School Version [ 1 ]</h3>
-                              <p class="" style="text-align:justify; color:white; width:400px; margin-left:350px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nihil praesentium laudantium minus similique sunt necessitatibus corrupti cupiditate eligendi.</p>
-                        </div>
-
-                    </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="container d-flex">
-                      <div class="col-6">
-                    </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="container d-flex">
-                      <div class="col-6">
-                      <img src="image/schoolph.avif" alt="" style="width:550px;">
-                    </div>
-                    <div class="col-6" style="margin-top:70px;">
-
-                    </div>
-                    </div>
-                  </div>
-
-                </div>
-
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon s" aria-hidden="true"></span>
-                  <span class="sr-only ">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon s" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-                </div>
-              </div> -->
+<div class="container main_carousel mt-5" style="width:700px;">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="project/2.png" class="d-block w-100" alt="...">
+                  <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>School Project Version [1]</b></p>
+                  <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+              </div>
+              <div class="carousel-item">
+                <img src="project/1.png" class="d-block w-100" alt="...">
+                <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>School Project Version [2]</b></p>
+                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+              </div>
+              <div class="carousel-item">
+                <img src="project/3.png" class="d-block w-100" alt="...">
+                <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Restaurant Project Version [1]</b></p>
+                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+              </div>
+              <div class="carousel-item">
+                <img src="project/4.png" class="d-block w-100" alt="...">
+                <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Restaurant Project Version [2]</b></p>
+                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+              </div>
+              <div class="carousel-item">
+                <img src="project/5.png" class="d-block w-100" alt="...">
+                <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Shwe Myanmar San Company</b></p>
+                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+              </div>
+            </div>
+            <button class="carousel-control-prev prev_next_btn" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next prev_next_btn" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
 
 
               <div  id="contact">
@@ -894,7 +923,7 @@ background-color:gray;
 
               <br><br><br>
 
-<?php// include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 
   </body>
 </html>

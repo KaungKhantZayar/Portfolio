@@ -1,7 +1,21 @@
+<style media="screen">
+@media only screen and (max-width: 600px) {
+  .main_footer{
+    margin:0px !important;
+    margin-top:20px !important;
+    margin-left:60px !important;
+  }
+  .footer_icon{
+    margin:0px !important;
+    margin-left:140px !important;
+    margin-top:30px !important;
+  }
+}
+</style>
 <div class="Footer">
     <h4 style="color:white; font-size:30px; text-align:center;" class="pt-4">KKZY</h4>
 
-    <div class="footer_link mt-4" style="margin-left:491px;">
+    <div class="footer_link mt-4 main_footer" style="margin-left:491px;">
       <a href="#home" style="color:gray; ">Home</a>
       <a href="#about" style="color:gray; margin-left:10px;">About Us</a>
       <a href="#skill" style="color:gray; margin-left:10px;">Skill</a>
@@ -10,7 +24,7 @@
       <a href="#contact" style="color:gray; margin-left:10px;">Contact</a>
     </div>
 
-  <div class="d-flex mt-4" style="margin-left:600px;">
+  <div class="d-flex mt-4 footer_icon" style="margin-left:580px;">
     <div class="" style="margin-left:20px;">
       <svg xmlns="http://www.w3.org/2000/svg" style="color:white;" width="30" height="30" fill="currentColor" class="bi bi-facebook ms-2 icon-link1" viewBox="0 0 16 16">
         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
@@ -18,9 +32,11 @@
     </div>
 
     <div class="" style="margin-left:20px;">
-      <svg xmlns="http://www.w3.org/2000/svg" style="color:white;" width="30" height="30" fill="currentColor" class="bi bi-telegram ms-2 icon-link1" viewBox="0 0 16 16">
+      <a href="https://t.me/kaungkhantzayar2009">
+      <svg xmlns="" style="color:white;" width="30" height="30" fill="currentColor" class="bi bi-telegram ms-2 icon-link1" viewBox="0 0 16 16">
         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
       </svg>
+      </a>
     </div>
 
     <div class="" style="margin-left:20px;">
