@@ -252,7 +252,7 @@
   backdrop-filter:blur(25px);
   box-shadow:0px 6px 30px 20px rgb(0,0,0,0.1);
   color:white;
-  background:url('image/photo6.jpg');
+  /* background:url('image/photo6.jpg'); */
   width:100%;
   justify-content:center;
   background-size:cover;
@@ -384,6 +384,7 @@ background-color:gray;
   .contact_google_map_div{
     width:100% !important;
     padding:20px;
+    border-radius:90px !important;
   }
   .google_map{
     width:100%;
@@ -422,7 +423,7 @@ background-color:gray;
 
 <?php include 'navbar.php'; ?>
 <br><br><br><br><br>
-    <div class="container" style="margin-top:-50px;">
+    <div class="container" style="margin-top:-10px;">
         <div class="d-flex main-div">
             <div class="text_col-div">
               <div class="" style="margin-top:150px;">
@@ -635,8 +636,26 @@ background-color:gray;
                     </svg>
                   </div>
                     <div class="mt-5">
-                    <button type="button" class="btn about_me_btn" name="button" style="background-color:yellow; color:black;"><b>More About Me</b></button>
+                    <button type="button" class="btn about_me_btn" name="button" style="background-color:yellow; color:black;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><b>More About Me</b></button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header bg-dark">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color:yellow; font-size:20px !important;">About Me</h1>
+                        </div>
+                        <div class="modal-body bg-dark">
+                          <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+                        </div>
+                        <div class="modal-footer" type="button" data-bs-dismiss="modal" style="background-color:yellow;">
+                          <span style="margin-right:200px; font-size:18px;"><b>Close Now</b></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                </div>
+
                 </div>
                 </div>
 
@@ -662,7 +681,7 @@ background-color:gray;
         </div>
       </div>
       <div class="col-6 about_text">
-        <div class="about_text_div" style="margin-top:60px; margin-left:90px;">
+        <div class="about_text_div" style="margin-top:120px; margin-left:90px;">
           <h4 style="color:yellow; font-size:28px;" class="about_texts">Aboud Me</h4>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_story">A story of hardwork and preseveracne</p>
           <p style="color:gray;" class="about_texts">Hi I'm KKZY a web developer and designer speciallzing in creating visually angaging user-friendly website. My expertise blends innovative design with robust functionality to bring your digital ideas to life.</p>
@@ -683,11 +702,10 @@ background-color:gray;
 
         <div class="container main_skill" style="padding-top:150px;">
             <div class="main-title">
-              <h1 class="text-center" style="color:white;">My Skills</h1>
-              <div class="skill-border skill_outline"></div>
+              <h1 class="text-center" style="color:white;">My <font color="yellow">Skills</font></h1>
             </div>
 
-            <div class="row">
+            <div class="row mt-5">
                 <section class="col">
                     <div class="sub-title mt-4">
                         <h3 style="color:white;">Programming Skills</h3>
@@ -834,10 +852,10 @@ background-color:gray;
           <div id="project">
 
           </div>
-          <br><br><br><br><br>
+          <br><br><br><br><br><br><br>
           <div>
           <div>
-              <h2 style="color:white;" class="text-center"><b>My Project</b></h2>
+              <h2 style="color:white;" class="text-center"><b>My <font color="yellow">Project</font></b></h2>
           </div>
 
 <div class="container main_carousel mt-5" style="width:700px;">
@@ -884,9 +902,9 @@ background-color:gray;
               <div  id="contact">
 
               </div>
-              <br><br><br><br>
+              <br><br><br><br><br>
               <!-- contact -->
-              <h2 style="color:white;" class="text-center"><b>Contact Me</b></h2>
+              <h2 style="color:white;" class="text-center"><b>Contact <font color="yellow">Me</font></b></h2>
 
                 <div class="container mt-5 main_footer_bg">
                   <div class="row">
@@ -895,25 +913,25 @@ background-color:gray;
                         <div class="card-body">
                           <h3>Contact</h3>
                           <form class="" action="index.html" method="post">
-                            <div class="input_box">
-                            <input type="text" name="" value="" placeholder="Enter Your Name" style="width:100%;" class="p-1 mt-2 int">
-                            <input type="text" name="" value="" placeholder="Enter Your Email" style="width:100%;" class="mt-3 p-1 int">
-                            <input type="text" name="" value="" placeholder="Enter Your Password" style="width:100%;" class="mt-3 p-1 int">
-                            <input name="name" rows="5" style="width:100%; height:100px;" placeholder="Enter Message" class="mt-3 p-1 int textarea_box">
-                            <button type="" name="button" class="mt-3 btn">Submit Now</button>
+                            <div class="input_box mt-3">
+                            <input type="text" name="" value="" placeholder="Enter Your Name" style="width:100%;" class="mt-2 int ps-3">
+                            <input type="text" name="" value="" placeholder="Enter Your Email" style="width:100%;" class="mt-3 int ps-3">
+                            <input type="text" name="" value="" placeholder="Enter Your Password" style="width:100%;" class="mt-3 int ps-3">
+                            <input name="name" rows="5" style="width:100%; height:100px;" placeholder="Enter Message" class="mt-3 int ps-3 textarea_box">
                             </div>
+                            <button type="" name="button" class="mt-3 btn" style="padding-right:40px !important; background-color:yellow; color:black;"><b>Submit Now</b></button>
                           </form>
                         </div>
                       </div>
                     </div>
                     <div class="col-6 contact_google_map_div">
-                      <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d393.1766974619688!2d96.17193952284455!3d16.920606562378563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNorth%20Okkalapa%20ayer%2022street!5e1!3m2!1sen!2smm!4v1741944145666!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe class="google_map" style="border-radius:10px;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d393.1766974619688!2d96.17193952284455!3d16.920606562378563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNorth%20Okkalapa%20ayer%2022street!5e1!3m2!1sen!2smm!4v1741944145666!5m2!1sen!2smm" width="600" height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
               <!-- contact -->
 
-              <div class="" style="position:fixed; top:580px; left:95%;">
+              <div id="up_key" style="position:fixed; top:580px; left:95%;">
                 <a href="#up" class="up">
                   <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-up-square-fill up" viewBox="0 0 16 16">
                     <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
