@@ -281,7 +281,7 @@
 }
 
 .services_btn{
-  margin-left:100px;
+  /* margin-right:-2000px !important; */
   border:none;
   padding:8px;
   background-color:yellow;
@@ -392,7 +392,7 @@ background-color:gray;
   }
   .services_col{
     width:100%;
-    padding:20px;
+    padding:40px;
   }
   .services_icon{
     margin-left:183px !important;
@@ -414,6 +414,15 @@ background-color:gray;
   }
   .carousel_btn_1{
     margin-left:150px !important;
+  }
+  .modal_width{
+    padding:50px !important;
+    margin-right:20px;
+    /* padding-; */
+  }
+  .close_btn{
+    /* margin-left:120px !important; */
+    padding-left:-50% !important;
   }
 }
 
@@ -639,7 +648,7 @@ background-color:gray;
                     <button type="button" class="btn about_me_btn" name="button" style="background-color:yellow; color:black;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><b>More About Me</b></button>
 
                   <!-- Modal -->
-                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+                  <div class="modal fade modal_width" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header bg-dark">
@@ -648,8 +657,8 @@ background-color:gray;
                         <div class="modal-body bg-dark">
                           <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
                         </div>
-                        <div class="modal-footer" type="button" data-bs-dismiss="modal" style="background-color:yellow;">
-                          <span style="margin-right:200px; font-size:18px;"><b>Close Now</b></span>
+                        <div class="modal-footer bg-dark">
+                          <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
                         </div>
                       </div>
                     </div>
@@ -667,6 +676,7 @@ background-color:gray;
         </div>
     </div>
 
+<br><br><br>
 <div id="about">
 
 </div>
@@ -687,8 +697,8 @@ background-color:gray;
           <p style="color:gray;" class="about_texts">Hi I'm KKZY a web developer and designer speciallzing in creating visually angaging user-friendly website. My expertise blends innovative design with robust functionality to bring your digital ideas to life.</p>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_contact">Contact</p>
           <p style="color:gray;" class="about_texts">Do you have fancy saying hi to me or you want to get started with your project and you need my help? Feel free to contact me.</p>
-          <p style="color:yellow; text-align:justify; font-size:17px;" class="mt-4 about_email">www.kaungkhantzayyar13@gmail.com</p>
-          <div class="mt-1">
+          <a href="#" style="color:yellow; text-align:justify; font-size:17px;" class="mt-4 about_email">www.kaungkhantzayyar13@gmail.com</a>
+          <div class="mt-3">
           <button type="button" class="btn about_me_btn" name="button"  style="background-color:yellow; color:black;"><b>HLRE ME</b></button>
         </div>
         </div>
@@ -789,54 +799,107 @@ background-color:gray;
 <div id="services">
 
 </div>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <div>
     <h2 style="color:white;" class="text-center"><b>Our <font color="yellow">Services</font></b></h2>
 </div>
 <br>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
-            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop services_icon" viewBox="0 0 16 16">
+            <svg style="margin-left:170px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop services_icon" viewBox="0 0 16 16">
               <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
             </svg>
 
-            <h4 style="margin-left:106px; color:white; margin-top:10px;" class="training_text"><b>Training</b></h4>
+            <h4 style="margin-left:143px; color:white; margin-top:10px;" class="training_text"><b>Training</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><b>Read More</b></button>
           </div>
         </div>
       </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade modal_width" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel1" style="color:yellow; font-size:20px !important;"><font color="white">Training</font> Services</h1>
+          </div>
+          <div class="modal-body bg-dark">
+            <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+          </div>
+          <div class="modal-footer bg-dark">
+            <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
       <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
-            <!-- <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-              <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
-            </svg></b> -->
-            <svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette services_icon" viewBox="0 0 16 16">
+            <svg style="margin-left:170px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette services_icon" viewBox="0 0 16 16">
               <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
               <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
             </svg>
-            <h4 style="margin-left:89px; color:white; margin-top:10px;" class="Web_Design_text"><b>Web Design</b></h4>
+            <h4 style="margin-left:124px; color:white; margin-top:10px;" class="Web_Design_text"><b>Web Design</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><b>Read More</b></button>
           </div>
         </div>
       </div>
+
+
+      <div class="modal fade modal_width" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel2" style="color:yellow; font-size:20px !important;"><font color="white">Web Design</font> Services</h1>
+            </div>
+            <div class="modal-body bg-dark">
+              <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+            </div>
+            <div class="modal-footer bg-dark">
+              <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div class="col-4 services_col">
         <div class="card services_card">
           <div class="card-body" style="background-color:black;">
-            <b><svg style="margin-left:130px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash services_icon" viewBox="0 0 16 16">
+            <b><svg style="margin-left:170px; color:yellow;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash services_icon" viewBox="0 0 16 16">
               <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
             </svg></b>
-            <h4 style="margin-left:46px; color:white; margin-top:10px;" class="Web_Development_text"><b>Web Development</b></h4>
+            <h4 style="margin-left:85px; color:white; margin-top:10px;" class="Web_Development_text"><b>Web Development</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><b>Read More</b></button>
           </div>
         </div>
         </div>
+
+        <div class="modal fade modal_width" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-dark">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel3" style="color:yellow; font-size:20px !important;"><font color="white">Web Development</font> Services</h1>
+              </div>
+              <div class="modal-body bg-dark">
+                <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+              </div>
+              <div class="modal-footer bg-dark">
+                <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
       <!-- <div class="col-3">
         <div class="card">
@@ -852,7 +915,7 @@ background-color:gray;
           <div id="project">
 
           </div>
-          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br>
           <div>
           <div>
               <h2 style="color:white;" class="text-center"><b>My <font color="yellow">Project</font></b></h2>
