@@ -969,20 +969,22 @@ background-color:gray;
               <!-- contact -->
               <h2 style="color:white;" class="text-center"><b>Contact <font color="yellow">Me</font></b></h2>
 
+
+<!-- | -->
                 <div class="container mt-5 main_footer_bg">
                   <div class="row">
                     <div class="col-6 contact_div">
                       <div class="card main_footer_cd">
                         <div class="card-body">
                           <h3>Contact</h3>
-                          <form class="" action="index.html" method="post">
+                          <form class="" action="send_email.php" method="post">
                             <div class="input_box mt-3">
-                            <input type="text" name="" value="" placeholder="Enter Your Name" style="width:100%;" class="mt-2 int ps-3">
-                            <input type="text" name="" value="" placeholder="Enter Your Email" style="width:100%;" class="mt-3 int ps-3">
-                            <input type="text" name="" value="" placeholder="Enter Your Password" style="width:100%;" class="mt-3 int ps-3">
-                            <input name="name" rows="5" style="width:100%; height:100px;" placeholder="Enter Message" class="mt-3 int ps-3 textarea_box">
+                            <input type="text" name="name" id="name" value="" placeholder="Enter Your Name" style="width:100%;" class="mt-2 int ps-3"><span style="color:red;"><?php echo empty($nameError) ? '' : '*'.$nameError; ?></span>
+                            <input type="email" name="email" id="email" value="" placeholder="Enter Your Email" style="width:100%;" class="mt-3 int ps-3">
+                            <input type="text" name="subject" id="subject" value="" placeholder="Subject" style="width:100%;" class="mt-3 int ps-3">
+                            <input name="message" rows="5" id="message" style="width:100%; height:100px;" placeholder="Enter Message" class="mt-3 int ps-3 textarea_box">
                             </div>
-                            <button type="" name="button" class="mt-3 btn" style="padding-right:40px !important; background-color:yellow; color:black;"><b>Submit Now</b></button>
+                            <button type="submit" name="button" class="mt-3 btn" style="padding-right:40px !important; background-color:yellow; color:black;"><b>Submit Now</b></button>
                           </form>
                         </div>
                       </div>
