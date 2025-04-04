@@ -47,6 +47,10 @@
   background: rgb(36,36,36);
   background: linear-gradient(0deg, rgba(36,36,36,1) 0%, rgba(255,201,0,1) 100%);
 }
+.bg_main{
+  border-radius:20px;
+  margin:20px;
+}
 </style>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg_main">
   <a class="navbar-brand" href="#" style="margin-left:90px;">
@@ -57,22 +61,6 @@
     </div>
   </a>
   <p class="kkzy" href="#" style="color:white; font-size:18px; display:none;">KKZY</p>
-
-  <!-- <script>
-
-    $(document).ready(function(){
-      $("#name").hide();
-      $("#main_icon").hover(function(){
-        $("#name").slideToggle("slow");
-       // $("#name").animate({left: '100%'});
-      });
-    });
-
-  </script> -->
-
-  <!-- <img src="project/2.png" alt="" style="width:550px; margin-left:270px; border-radius:5px; box-shadow:3px 3px 15px gray;"> -->
-
-  <!-- Links -->
   <ul class="navbar-nav min_nav" style="margin-left:700px;">
     <li class="nav-item">
       <a class="nav-link ms-3 nav-color" href="#home" style="color:white; font-size:18px;">Home</a>

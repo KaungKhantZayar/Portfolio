@@ -13,17 +13,17 @@ if (empty($_POST['name']) OR empty($_POST['email']) OR empty($_POST['subject']) 
   if (empty($_POST['message'])) {
     $messageError = 'message cannot be empty';
   }
-}else {
-  use phpmailer\phpmailer\phpmailer;
-  use phpmailer\phpmailer\SMTP;
-  
+}else{
+
   $name = $_POST['name'];
   $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-   require "vendor/autoload.php";
+  use phpmailer\phpmailer\phpmailer;
+  use phpmailer\phpmailer\SMTP;
 
+   require "vendor/autoload.php";
 
    $mail = new PHPMailer(true);
 
@@ -45,6 +45,5 @@ if (empty($_POST['name']) OR empty($_POST['email']) OR empty($_POST['subject']) 
 
    $mail->send();
      echo "<script>alert('Thank you for your message');window.location.href='index.php'</script>";
-}
 
  ?>
