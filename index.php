@@ -281,7 +281,7 @@
 }
 
 .services_btn{
-  /* margin-right:-2000px !important; */
+  margin:0px !important;
   border:none;
   padding:8px;
   background-color:yellow;
@@ -311,6 +311,13 @@ background-color:gray;
 }
 
 @media only screen and (max-width: 600px) {
+  .services_btn{
+    margin:0px !important;
+    border:none;
+    padding:8px;
+    background-color:yellow;
+    border-radius:10px;
+  }
   .main_photo{
     display:none;
   }
@@ -432,6 +439,8 @@ background-color:gray;
 
 <?php include 'navbar.php'; ?>
 <br><br><br><br><br>
+<div class="">
+
     <div class="container" style="margin-top:-10px;">
         <div class="d-flex main-div">
             <div class="text_col-div">
@@ -466,8 +475,8 @@ background-color:gray;
                 </div>
               </div>
                   <h4 style="color:white;" class="web_text">I am Web Developer</h4>
-                  <p style="color:gray; text-align:justify; font-size:17px;" class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....
+                  <p style="color:gray; text-align:justify; font-size:17px;" class="mt-4">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites.
+                      <b>- Keep Learning...</b>
                 </p>
 
 
@@ -655,7 +664,7 @@ background-color:gray;
                           <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color:yellow; font-size:20px !important;">About Me</h1>
                         </div>
                         <div class="modal-body bg-dark">
-                          <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+                          <p style="color:gray; text-align:justify;">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites. I've completed my studies in web development fundamentals including HTML, CSS, Bootstrap, JavaScript, jQuery, and PHP, and I work with MySQL as my go-to database solution.Right now, I'm diving deeper into Laravel, learning how to build powerful and efficient web applications using this modern PHP framework. I'm passionate about continuous learning and always looking to improve my skills and take on new challenges in web development.</p>
                         </div>
                         <div class="modal-footer bg-dark">
                           <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
@@ -676,7 +685,7 @@ background-color:gray;
         </div>
     </div>
 
-<br><br><br>
+<br><br>
 <div id="about">
 
 </div>
@@ -694,13 +703,39 @@ background-color:gray;
         <div class="about_text_div" style="margin-top:120px; margin-left:90px;">
           <h4 style="color:yellow; font-size:28px;" class="about_texts">Aboud Me</h4>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_story">A story of hardwork and preseveracne</p>
-          <p style="color:gray;" class="about_texts">Hi I'm KKZY a web developer and designer speciallzing in creating visually angaging user-friendly website. My expertise blends innovative design with robust functionality to bring your digital ideas to life.</p>
+          <p style="color:gray; text-align:justify;;" class="about_texts">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites. I've completed my studies in web development fundamentals including HTML, CSS, Bootstrap, JavaScript, jQuery, and PHP, and I work with MySQL as my go-to database solution.</p>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_contact">Contact</p>
-          <p style="color:gray;" class="about_texts">Do you have fancy saying hi to me or you want to get started with your project and you need my help? Feel free to contact me.</p>
-          <a href="#" style="color:yellow; text-align:justify; font-size:17px;" class="mt-4 about_email">www.kaungkhantzayyar13@gmail.com</a>
+
+          <p style="color:gray;" class="about_texts"></p>
+
+          <div class="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" style="color:yellow;" width="30" height="30" fill="currentColor" class="bi bi-phone-vibrate" viewBox="0 0 16 16">
+              <path d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+              <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M1.599 4.058a.5.5 0 0 1 .208.676A7 7 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A8 8 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208m12.802 0a.5.5 0 0 1 .676.208A8 8 0 0 1 16 8a8 8 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A7 7 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676M3.057 5.534a.5.5 0 0 1 .284.648A5 5 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A6 6 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284m9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8s-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8s-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648"/>
+            </svg> <p style="color:gray;" class="ms-2">--</p>
+            <p class="ms-2" style="color:yellow;">95+ 9976891729</p>
+          </div>
+
+          <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" style="color:yellow;" width="30" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+              <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+            </svg><p style="color:gray;" class="ms-2">--</p>
+            <p style="color:yellow;" class="ms-2">North Okkalapa ayer(22)street..</p>
+          </div>
+
+          <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" style="color:yellow; margin-top:3px;" width="25" height="25" fill="currentColor" class="ms-1 bi bi-envelope-paper" viewBox="0 0 16 16">
+              <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267zm13 .566v5.734l-4.778-2.867zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083zM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
+            </svg><p style="color:gray;" class="ms-2">--</p>
+            <p class="ms-2" style="color:yellow;">kaungkhantzayar2009@gmail.com</p>
+          </div>
+
+
+          <hr style="color:gray;">
           <div class="mt-3">
           <button type="button" class="btn about_me_btn" name="button"  style="background-color:yellow; color:black;"><b>HLRE ME</b></button>
-        </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -770,20 +805,6 @@ background-color:gray;
                         </div>
 
                         <div class="skill">
-                            <div class="subject" style="color:white;">Figma <span class="float-end">63%</span> </div>
-                            <div class="progress-bar" value="63%">
-                                <div class="progress-line" style="max-width:63%;"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <div class="subject" style="color:white;">Illustrator <span class="float-end">20%</span> </div>
-                            <div class="progress-bar" value="20%">
-                                <div class="progress-line" style="max-width:20%;"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
                             <div class="subject" style="color:white;">Responsive Design <span class="float-end">10%</span> </div>
                             <div class="progress-bar" value="10%">
                                 <div class="progress-line" style="max-width:10%;"></div>
@@ -794,7 +815,6 @@ background-color:gray;
                 </section>
             </div>
         </div>
-          </div>
 
 <div id="services">
 
@@ -814,22 +834,42 @@ background-color:gray;
             </svg>
 
             <h4 style="margin-left:143px; color:white; margin-top:10px;" class="training_text"><b>Training</b></h4>
-            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><b>Read More</b></button>
+            <p style="text-align:justify; color:gray;" class="mt-3">You'll learn how to create clean, functional, and responsive websites using modern technologies. My approach combines theory with hands-on practice, so by the end of the training, you'll be confident in building your own websites and even start working on real projects.</p>
+            <button type="button" name="button" class="services_btn mt-3 services_button form-control"data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><b>Read More</b></button>
           </div>
         </div>
       </div>
 
 
     <!-- Modal -->
-    <div class="modal fade modal_width" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+    <div class="modal fade modal_width" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header bg-dark">
             <h1 class="modal-title fs-5" id="staticBackdropLabel1" style="color:yellow; font-size:20px !important;"><font color="white">Training</font> Services</h1>
           </div>
           <div class="modal-body bg-dark">
-            <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+            <div class="" style="color:white;">
+
+              <p style="text-align:center;">My training covers the essential skills needed for modern web development, including:</p><br><br>
+              <ul>
+                <li>
+                  HTML, CSS, and Bootstrap for structuring and styling websites <br><br>
+                </li>
+                <li>
+                  JavaScript and jQuery to add interactivity and dynamic features <br><br>
+                </li>
+                <li>
+                  PHP and MySQL for building the back-end and working with databases <br><br>
+                </li>
+                <li>
+                  Responsive Web Design, ensuring your site looks great on all screen sizes (mobile, tablet, desktop) <br><br>
+                </li>
+                <li>
+                  Understanding of web structure, layout principles, and design best practices
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="modal-footer bg-dark">
             <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
@@ -848,7 +888,7 @@ background-color:gray;
             </svg>
             <h4 style="margin-left:124px; color:white; margin-top:10px;" class="Web_Design_text"><b>Web Design</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button form-control" style="!important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><b>Read More</b></button>
           </div>
         </div>
       </div>
@@ -879,7 +919,7 @@ background-color:gray;
             </svg></b>
             <h4 style="margin-left:85px; color:white; margin-top:10px;" class="Web_Development_text"><b>Web Development</b></h4>
             <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
-            <button type="button" name="button" class="services_btn mt-3 services_button" style="margin-left:143px !important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><b>Read More</b></button>
+            <button type="button" name="button" class="services_btn mt-3 services_button form-control" style="!important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><b>Read More</b></button>
           </div>
         </div>
         </div>
@@ -909,14 +949,10 @@ background-color:gray;
         </div>
       </div> -->
     </div>
-  </div>
 
 
-          <div id="project">
-
-          </div>
+          <div id="project"></div>
           <br><br><br><br><br><br><br><br>
-          <div>
           <div>
               <h2 style="color:white;" class="text-center"><b>My <font color="yellow">Project</font></b></h2>
           </div>
@@ -1005,6 +1041,8 @@ background-color:gray;
               </div>
 
               <br><br><br>
+            </div>
+
 
 <?php include 'footer.php'; ?>
 

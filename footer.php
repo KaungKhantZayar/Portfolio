@@ -3,19 +3,25 @@
   .main_footer{
     margin:0px !important;
     margin-top:20px !important;
-    margin-left:60px !important;
+    margin-left:73px !important;
   }
   .footer_icon{
     margin:0px !important;
-    margin-left:140px !important;
+    margin-left:170px !important;
     margin-top:30px !important;
+  }
+  .main_footer_icon_1{
+    margin-left:0px !important;
+    margin-left:250px !important;
   }
 }
 </style>
 <div class="Footer">
-    <h4 style="color:white; font-size:30px; text-align:center;" class="pt-4">KKZY</h4>
+  <svg style="color:white; margin-left:720px; margin-top:20px;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pc-display-horizontal main_footer_icon_1" viewBox="0 0 16 16">
+    <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+  </svg>
 
-    <div class="footer_link mt-4 main_footer" style="margin-left:491px;">
+    <div class="footer_link mt-4 main_footer" style="margin-left:560px;">
       <a href="#home" style="color:gray; ">Home</a>
       <a href="#about" style="color:gray; margin-left:10px;">About Us</a>
       <a href="#skill" style="color:gray; margin-left:10px;">Skill</a>
@@ -24,7 +30,7 @@
       <a href="#contact" style="color:gray; margin-left:10px;">Contact</a>
     </div>
 
-  <div class="d-flex mt-4 footer_icon" style="margin-left:580px;">
+  <div class="d-flex mt-4 footer_icon" style="margin-left:653px;">
     <div class="" style="margin-left:20px;">
       <svg xmlns="http://www.w3.org/2000/svg" style="color:white;" width="30" height="30" fill="currentColor" class="bi bi-facebook ms-2 icon-link1" viewBox="0 0 16 16">
         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>

@@ -37,9 +37,13 @@
   font-weight: bold;
   font-size:30px !important;
   margin-top:20px;
+  margin-left:-30px;
 }
 .bg_main{
   height:90px;
+}
+#main_icon{
+  margin-left:-30px;
 }
   }
 
