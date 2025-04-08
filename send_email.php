@@ -1,29 +1,15 @@
 <?php
 
-if (empty($_POST['name']) OR empty($_POST['email']) OR empty($_POST['subject']) OR empty($_POST['message'])){
-  if (empty($_POST['name'])) {
-    $nameError = 'Name cannot be empty';
-  }
-  if (empty($_POST['email'])) {
-    $emailError = 'Email cannot be empty';
-  }
-  if (empty($_POST['subject'])) {
-    $subjectError = 'Subject cannot be empty';
-  }
-  if (empty($_POST['message'])) {
-    $messageError = 'message cannot be empty';
-  }
-}else{
-
   $name = $_POST['name'];
   $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-  use phpmailer\phpmailer\phpmailer;
-  use phpmailer\phpmailer\SMTP;
 
    require "vendor/autoload.php";
+
+   use PHPMailer\PHPMailer\PHPMailer;
+   use PHPMailer\PHPMailer\SMTP;
 
    $mail = new PHPMailer(true);
 
@@ -45,5 +31,4 @@ if (empty($_POST['name']) OR empty($_POST['email']) OR empty($_POST['subject']) 
 
    $mail->send();
      echo "<script>alert('Thank you for your message');window.location.href='index.php'</script>";
-
  ?>

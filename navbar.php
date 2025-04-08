@@ -5,6 +5,7 @@
   margin-right:50px;
   cursor: pointer;
   transition:0.5s;
+  margin-bottom:10px;
 }
 .menu_btn:hover{
    transform: rotate(3.142rad) !important;
@@ -36,7 +37,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size:30px !important;
-  margin-top:20px;
+  margin-top:10px;
   margin-left:-30px;
 }
 .bg_main{
@@ -44,16 +45,32 @@
 }
 #main_icon{
   margin-left:-30px;
+  margin-top:-20px;
 }
   }
 
 .bg_main{
   background: rgb(36,36,36);
   background: linear-gradient(0deg, rgba(36,36,36,1) 0%, rgba(255,201,0,1) 100%);
+  opacity:0.9;
 }
 .bg_main{
   border-radius:20px;
   margin:20px;
+  /* background:rgb(0,0,0,0.1); */
+  text-shadow:0px 0px 2px 16px white;
+  border-radius:16px;
+  border:5px solid yellow;
+  backdrop-filter:blur(25px);
+  box-shadow:0px 6px 30px 20px rgb(0,0,0,0.1);
+}
+.main_nav_link{
+  transition:0.5s;
+}
+.main_nav_link:hover{
+  background-color:black;
+  backdrop-filter:blur(25px);
+  border-radius:10px;
 }
 </style>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg_main">
@@ -67,22 +84,22 @@
   <p class="kkzy" href="#" style="color:white; font-size:18px; display:none;">KKZY</p>
   <ul class="navbar-nav min_nav" style="margin-left:700px;">
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#home" style="color:white; font-size:18px;">Home</a>
+      <a class="nav-link ms-3 main_nav_link" href="#home" style="color:white; font-size:18px;"><b>Home</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#about" style="color:white; font-size:18px;">About Us</a>
+      <a class="nav-link ms-3 main_nav_link" href="#about" style="color:white; font-size:18px;"><b>About Us</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#skill" style="color:white; font-size:18px;">Skill</a>
+      <a class="nav-link ms-3 main_nav_link" href="#skill" style="color:white; font-size:18px;"><b>Skill</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#services" style="color:white; font-size:18px;">Services</a>
+      <a class="nav-link ms-3 main_nav_link" href="#services" style="color:white; font-size:18px;"><b>Services</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#project" style="color:white; font-size:18px;">Project</a>
+      <a class="nav-link ms-3 main_nav_link" href="#project" style="color:white; font-size:18px;"><b>Project</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ms-3 nav-color" href="#contact" style="color:white; font-size:18px;">Contact</a>
+      <a class="nav-link ms-3 main_nav_link" href="#contact" style="color:white; font-size:18px;"><b>Contact</b></a>
     </li>
   </ul>
 
@@ -91,12 +108,12 @@
         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
       </svg>
     <ul class="dropdown-menu d_m" style="margin-left:-100px; margin-top:20px;">
-        <li><a class="dropdown-item dr_it ms-2" href="#home" style="color:gray; ">Home</a></li>
-        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#about" style="color:gray;">About Us</a></li>
-        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#skill" style="color:gray;">Skill</a></li>
-        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#services" style="color:gray;">Services</a></li>
-        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#project" style="color:gray;">Project</a></li>
-        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#contact" style="color:gray;">Contact</a></li>
+        <li><a class="dropdown-item dr_it ms-2" href="#home" style="color:gray; "><b>Home</b></a></li>
+        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#about" style="color:gray;"><b>About Us</b></a></li>
+        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#skill" style="color:gray;"><b>Skill</a></b></li>
+        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#services" style="color:gray;"><b>Services</b></a></li>
+        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#project" style="color:gray;"><b>Project</b></a></li>
+        <li><a class="dropdown-item dr_it mt-2 ms-2" href="#contact" style="color:gray;"><b>Contact</b></a></li>
     </ul>
   </div>
 

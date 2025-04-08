@@ -447,8 +447,8 @@ background-color:gray;
               <div class="" style="margin-top:150px;">
 
                 <div class="d-flex" style="">
-                <h3 style="color:white;">Hello I'm</h3>
-                <div class="ms-3 d-flex text_size" style="font-size:30px; margin-left:10px; color:white; margin-top:-10px; font-family: serif; color:yellow; font-weight:bold; text-shadow:5px 5px 5px lightblue;">
+                <h1 style="color:white;">Hello I'm</h1>
+                <div class="ms-3 d-flex text_size" style="font-size:30px; margin-left:10px; color:white; margin-top:9px; font-family: serif; color:yellow; font-weight:bold; text-shadow:5px 5px 5px lightblue;">
                   <div id="k" class="hide">K</div>
                   <div id="a" class="hide" style="margin-left:0px;">a</div>
                   <div id="u" class="hide" style="margin-left:0px;">u</div>
@@ -664,7 +664,7 @@ background-color:gray;
                           <h1 class="modal-title fs-5" id="staticBackdropLabel" style="color:yellow; font-size:20px !important;">About Me</h1>
                         </div>
                         <div class="modal-body bg-dark">
-                          <p style="color:gray; text-align:justify;">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites. I've completed my studies in web development fundamentals including HTML, CSS, Bootstrap, JavaScript, jQuery, and PHP, and I work with MySQL as my go-to database solution.Right now, I'm diving deeper into Laravel, learning how to build powerful and efficient web applications using this modern PHP framework. I'm passionate about continuous learning and always looking to improve my skills and take on new challenges in web development.</p>
+                          <p style="color:white; text-align:justify;">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites. I've completed my studies in web development fundamentals including HTML, CSS, Bootstrap, JavaScript, jQuery, and PHP, and I work with MySQL as my go-to database solution.Right now, I'm diving deeper into Laravel, learning how to build powerful and efficient web applications using this modern PHP framework. I'm passionate about continuous learning and always looking to improve my skills and take on new challenges in web development.</p>
                         </div>
                         <div class="modal-footer bg-dark">
                           <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
@@ -692,7 +692,7 @@ background-color:gray;
 
   <div class="container main_about" style="margin-top:100px;">
     <div class="row">
-      <h4 style="color:yellow; font-size:28px; display:none;" class="about_texts about_me_text">Aboud Me</h4>
+      <h1 style="color:yellow; display:none;" class="about_texts about_me_text"><b>About Me</b></h1>
 
       <div class="col-6 about_photo">
         <div class="mt-5 about_photo_div" style="margin-left:-90px;">
@@ -701,7 +701,7 @@ background-color:gray;
       </div>
       <div class="col-6 about_text">
         <div class="about_text_div" style="margin-top:120px; margin-left:90px;">
-          <h4 style="color:yellow; font-size:28px;" class="about_texts">Aboud Me</h4>
+          <h1 style="color:yellow;" class="about_texts"><b><font color="white">About</font> Me</b></h1>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_story">A story of hardwork and preseveracne</p>
           <p style="color:gray; text-align:justify;;" class="about_texts">Hi, I'm a web developer in the making with a strong interest in creating clean, responsive, and functional websites. I've completed my studies in web development fundamentals including HTML, CSS, Bootstrap, JavaScript, jQuery, and PHP, and I work with MySQL as my go-to database solution.</p>
           <p style="color:white; text-align:justify; font-size:17px;" class="mt-4 about_contact">Contact</p>
@@ -747,7 +747,7 @@ background-color:gray;
 
         <div class="container main_skill" style="padding-top:150px;">
             <div class="main-title">
-              <h1 class="text-center" style="color:white;">My <font color="yellow">Skills</font></h1>
+              <h1 class="text-center" style="color:white;"><b>My <font color="yellow">Skills</b></font></h1>
             </div>
 
             <div class="row mt-5">
@@ -821,7 +821,7 @@ background-color:gray;
 </div>
 <br><br><br><br><br><br><br><br><br>
 <div>
-    <h2 style="color:white;" class="text-center"><b>Our <font color="yellow">Services</font></b></h2>
+    <h1 style="color:white;" class="text-center"><b>Our <font color="yellow">Services</font></b></h1>
 </div>
 <br>
   <div class="container mt-5">
@@ -887,21 +887,32 @@ background-color:gray;
               <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
             </svg>
             <h4 style="margin-left:124px; color:white; margin-top:10px;" class="Web_Design_text"><b>Web Design</b></h4>
-            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
+            <p style="text-align:justify; color:gray;" class="mt-3">I offer professional web design services to help individuals and businesses create clean, modern, and user-friendly websites. My focus is on building visually appealing designs that are also responsive meaning your website will look great and work well on any device, including phones, tablets, and desktops.</p>
             <button type="button" name="button" class="services_btn mt-3 services_button form-control" style="!important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><b>Read More</b></button>
           </div>
         </div>
       </div>
 
 
-      <div class="modal fade modal_width" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+      <div class="modal fade modal_width" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:120px;">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header bg-dark">
               <h1 class="modal-title fs-5" id="staticBackdropLabel2" style="color:yellow; font-size:20px !important;"><font color="white">Web Design</font> Services</h1>
             </div>
             <div class="modal-body bg-dark">
-              <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+              <div class="" style="color:white;">
+                <p style="color:white; text-align:justify;">With a strong foundation in HTML, CSS, Bootstrap, and design principles, I can design websites that not only look good but also provide a great user experience. Whether you need a personal portfolio, a small business site, or a landing page, I can help bring your ideas to life.</p>
+                <hr style="color:gray;">
+                <p style="text-align:center;">My Web Design service includes:</p>
+
+                <ul>
+                  <li>Clean and responsive layout design</li>
+                  <li class="mt-1">Mobile-first design approach</li>
+                  <li class="mt-1">UI/UX best practices</li>
+                </ul>
+
+              </div>
             </div>
             <div class="modal-footer bg-dark">
               <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
@@ -918,20 +929,31 @@ background-color:gray;
               <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
             </svg></b>
             <h4 style="margin-left:85px; color:white; margin-top:10px;" class="Web_Development_text"><b>Web Development</b></h4>
-            <p style="text-align:center; color:gray;" class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoin..</p>
+            <p style="text-align:justify; color:gray;" class="mt-3">I provide complete web development services to help individuals, startups, and small businesses bring their ideas online. Whether it's a personal website, a business page, or a custom project, I can build fully functional and responsive websites from the ground up.</p>
             <button type="button" name="button" class="services_btn mt-3 services_button form-control" style="!important;"data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><b>Read More</b></button>
           </div>
         </div>
         </div>
 
-        <div class="modal fade modal_width" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:190px;">
+        <div class="modal fade modal_width" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-top:120px;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header bg-dark">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel3" style="color:yellow; font-size:20px !important;"><font color="white">Web Development</font> Services</h1>
               </div>
               <div class="modal-body bg-dark">
-                <p style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo....</p>
+                <div class="" style="color:white;">
+                  <p style="color:white; text-align:justify;">With hands-on experience in HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, and MySQL, I build websites that are fast, user-friendly, and tailored to your needs. I also focus on clean code and mobile responsiveness, making sure your website works perfectly on all devices.</p>
+                  <hr style="color:gray;">
+                  <p style="color:white; text-align:center;">My Web Development service includes:</p>
+                  <ul>
+                    <li>Full website setup from scratch</li>
+                    <li>Front-end and back-end development</li>
+                    <li>Database integration using PHP & MySQL</li>
+                    <li>Mobile responsive design</li>
+                    <li>Dynamic features using JavaScript & jQuery</li>
+                  </ul>
+                </div>
               </div>
               <div class="modal-footer bg-dark">
                 <button class="p-2" type="button" name="button" data-bs-dismiss="modal" style="background-color:yellow; margin-left:190px; border-radius:10px;"><b>Close Now</b></button>
@@ -952,38 +974,38 @@ background-color:gray;
 
 
           <div id="project"></div>
-          <br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br>
           <div>
-              <h2 style="color:white;" class="text-center"><b>My <font color="yellow">Project</font></b></h2>
+              <h1 style="color:white;" class="text-center"><b>My <font color="yellow">Project</font></b></h1>
           </div>
 
 <div class="container main_carousel mt-5" style="width:700px;">
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="project/2.png" class="d-block w-100" alt="...">
+                <img src="project/2.png" class="d-block w-100" alt="..." style="border-radius:10px;">
                   <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>School Project Version [1]</b></p>
-                  <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+                  <!-- <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button> -->
               </div>
               <div class="carousel-item">
-                <img src="project/1.png" class="d-block w-100" alt="...">
+                <img src="project/1.png" class="d-block w-100" alt="..." style="border-radius:10px;">
                 <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>School Project Version [2]</b></p>
-                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+                <!-- <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button> -->
               </div>
               <div class="carousel-item">
-                <img src="project/3.png" class="d-block w-100" alt="...">
+                <img src="project/3.png" class="d-block w-100" alt="..." style="border-radius:10px;">
                 <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Restaurant Project Version [1]</b></p>
-                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+                <!-- <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button> -->
               </div>
               <div class="carousel-item">
-                <img src="project/4.png" class="d-block w-100" alt="...">
+                <img src="project/4.png" class="d-block w-100" alt="..." style="border-radius:10px;">
                 <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Restaurant Project Version [2]</b></p>
-                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+                <!-- <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button> -->
               </div>
               <div class="carousel-item">
-                <img src="project/5.png" class="d-block w-100" alt="...">
+                <img src="project/5.png" class="d-block w-100" alt="..." style="border-radius:10px;">
                 <p style="color:white; font-size:25px; text-align:center;" class="mt-3"><b>Shwe Myanmar San Company</b></p>
-                <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button>
+                <!-- <button type="button" name="button" class="carousel_btn_1"><b>More Project</b></button> -->
               </div>
             </div>
             <button class="carousel-control-prev prev_next_btn" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -997,13 +1019,12 @@ background-color:gray;
           </div>
         </div>
 
-
               <div  id="contact">
 
               </div>
-              <br><br><br><br><br>
+              <br><br><br><br><br><br><br>
               <!-- contact -->
-              <h2 style="color:white;" class="text-center"><b>Contact <font color="yellow">Me</font></b></h2>
+              <h1 style="color:white;" class="text-center"><b>Contact <font color="yellow">Me</font></b></h1>
 
 
 <!-- | -->
