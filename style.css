@@ -1,0 +1,60 @@
+.main_photo{
+  background-image: url('image/mounter.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.name_text{
+  margin-left:600px;
+  color:white;
+}
+.name_text2{
+  margin-left:690px;
+  font-size:23px;
+  color:white;
+  padding-bottom:90px;
+  margin-bottom:-60px;
+}
+.my_photo{
+  margin-left:700px;
+  width:150px;
+  border-radius:90px;
+  /* border:2px solid white; */
+}
+.p_tap{
+  text-align: justify;
+}
+.about_card{
+  box-shadow:2px 8px 16px gray;
+  background-color:#d4d4d4;
+  height:500px;
+}
+.HIRE_btn{
+  background-color:#1c1c1c;
+  color:white;
+  margin-left:-43px;
+  transition:0.5s;
+  border-radius:10px;
+}
+.HIRE_btn:hover{
+  border:2px solid #1c1c1c;
+  background:none;
+  color:#1c1c1c;
+  margin-left:-43px;
+  transition:0.5s;
+  border-radius:10px;
+  box-shadow:2px 8px 16px gray;
+}
+.Services_btn{
+  background-color:#1c1c1c;
+  color:white;
+  transition:0.5s;
+  border-radius:10px;
+}
+.Services_btn:hover{
+  border:2px solid #1c1c1c;
+  background:none;
+  color:#1c1c1c;
+  transition:0.5s;
+  border-radius:10px;
+  box-shadow:2px 8px 16px gray;
+}
